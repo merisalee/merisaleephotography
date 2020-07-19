@@ -1,0 +1,249 @@
+* {
+  font-family: "Century Gothic", sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+.active {
+  background-color: #E0DFDF;
+}
+
+.loader {
+position: fixed;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+z-index: 9999;
+background: url(../img/spinner.gif) 50% 50% no-repeat rgb(249,249,249); 
+}
+
+.bx-wrapper .bx-viewport {
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    border: solid #fff 5px;
+    left: -5px;
+    background: #fff;
+}
+
+
+hr { 
+    display: block;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+} 
+
+#welcome{
+    position:relative;
+    top:40%;
+    cursor:context-menu;
+    margin:0 auto;  
+    z-index:1;
+}
+
+.os-animation{
+  opacity: 0;
+}
+
+.os-animation.animated{
+    opacity: 1;
+}
+
+.jumbotron a:hover {
+  color: white;
+  font-size:20px;
+  text-decoration: none;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+
+ h1 {
+  text-align:left;
+  color: #fff;
+  font-size: 48px;  
+  font-weight: bold;
+  opacity: 1;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  -ms-animation-delay: 1s
+}
+
+ h2 {
+  text-align:left;
+  color: #fff;
+  font-size: 28px;  
+  font-weight: bold;
+  opacity: 1;
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  -o-animation-delay: 1.8s;
+  -ms-animation-delay: 1.8s
+}
+
+ h3 {
+  text-align:left;
+  color: #fff;
+  font-size: 15px;  
+  font-weight: bold;
+  opacity: 1;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  -ms-animation-delay: 2s
+}
+
+#downArrow{
+    position:absolute;
+    top:80%;
+    left:50%;
+    z-index:1;
+}
+
+#downArrow:hover{
+    opacity:0.5;
+}
+
+html, body { height:100%; padding:0; margin:0; }
+
+
+
+.jumbotron {
+  background:url(../img/sherylmatt/IMG_4854.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 650px;
+  filter:alpha(opacity=90)
+  text-align:center;
+  height:100%;
+  width:100%;
+}
+
+.jumbotron2 {
+  background:url(../img/misc/photography.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 650px;
+  filter:alpha(opacity=90)
+  text-align:center;
+  width:auto;
+}
+
+.about h2 {
+  border-bottom: 2px solid #457B7C;
+  font-size:3em;
+  padding: 0.2em;
+  margin: 1em;
+  color: black;
+}
+
+.about {
+  background-color: rgba (255, 0, 0, 0.4);
+  text-align:left;
+}
+
+.about p {
+  font-size:1.4em;
+  color: gray;
+}
+
+.about h3 {
+  font-size: 1.6em;
+  font-weight: bold;
+  color:#282D2A;
+}
+
+a:hover {
+  color: black;
+  font-size: 1.3emx;
+  font-weight: bold;
+}
+
+
+.col-md-3 h3 {
+  margin-left:2em;
+  margin-right:2em;
+  padding-bottom:0.4em;
+  padding-top:0.4em;
+  color:#282D2A;
+  opacity:0;
+}
+
+.nav a {
+  color: black;
+  font-size:16px;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+}
+
+.nav a:hover{
+  color: rgb(100,100,100);
+  font-size:16px;
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+
+.columns twelve offset-by-two p {
+  padding-left:15px;
+}
+
+
+.images {
+  width: 60%;
+  float: left;
+  position:relative;
+}
+
+.footer {
+background-color: #F8F8F8;
+color: #fff;
+padding-top: 30px;
+padding-bottom: 20px;
+position: relative;
+}
+
+#footer li {
+display: inline-block;
+list-style-type: none;
+padding-right: 20px;
+}
+
+.footer p {
+  text-align: left;
+  padding-left:30px;
+}
+
+
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+
+#footerlist li {
+display: inline-block;
+list-style-type: none;
+padding-right: 20px;
+}
