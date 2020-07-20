@@ -159,7 +159,15 @@ html, body { height:100%; padding:0; margin:0; }
 .responsive {
   max-width: 100%;
   height: auto;
+  padding: .5%
 }
+
+#sherylmatt .responsive {
+  max-width: 80%;
+  height: auto;
+  padding: 1%
+}
+
 
 .about h2 {
   border-bottom: 2px solid #457B7C;
@@ -284,9 +292,9 @@ padding-right: 20px;
   width: 80%;
   height: 80%;
   left: 10%;
-  top: 70%;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
+  top: 40%;
+  -webkit-transition: opacity 0.15s, -webkit-transform 0.15s;
+  transition: opacity 0.15s, transform 0.15s;
   -webkit-transform: scale(0,1);
   -ms-transform: scale(0,1);
   transform: scale(0,1);
@@ -303,8 +311,8 @@ padding-right: 20px;
 .hovereffect img {
   display: block;
   position: relative;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
 }
 
 .hovereffect a:hover {
