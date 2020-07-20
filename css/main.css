@@ -139,9 +139,26 @@ html, body { height:100%; padding:0; margin:0; }
   -o-background-size: cover;
   background-size: cover;
   height: 350px;
-  filter:alpha(opacity=90)
+  filter:alpha(opacity=50)
   text-align:center;
   width:auto;
+}
+
+.jumbotron3 {
+  background:url(../img/misc/background.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 350px;
+  filter:alpha(opacity=50)
+  text-align:center;
+  width:auto;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
 
 .about h2 {
@@ -195,6 +212,7 @@ a:hover {
 .nav a:hover{
   color: rgb(100,100,100);
   font-size:16px;
+}
 
 .navbar {
   margin-bottom: 0px;
@@ -237,6 +255,11 @@ list-style-type: disc;
 -webkit-padding-start: 40px;
 }
 
+li {
+  color:#A59A9D;
+  text-align: left;
+}
+
 #footerlist li {
 display: inline-block;
 list-style-type: none;
@@ -261,9 +284,7 @@ padding-right: 20px;
   width: 80%;
   height: 80%;
   left: 10%;
-  top: 10%;
-  border-bottom: 1px solid #FFF;
-  border-top: 1px solid #FFF;
+  top: 70%;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: scale(0,1);
@@ -284,6 +305,11 @@ padding-right: 20px;
   position: relative;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
+}
+
+.hovereffect a:hover {
+  color: #A59A9D;
+  font-weight: bold;
 }
 
 .hovereffect:hover img {
