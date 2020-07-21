@@ -18,6 +18,8 @@
       <script type="text/javascript" src="js/animate.min.js"></script>
       <!-- jQuery library (served from Google) -->
       <script src="js/jquery-1.10.0.min.js"></script>
+      <!-- Font Awesome -->
+      <script src="https://use.fontawesome.com/3b4f1cf3d3.js"></script>
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>
@@ -38,7 +40,7 @@
             </div>
             <div class="navbar-collapse collapse" style="height: 1px;">
                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#home"><b>HOME</b></a></li>
+                  <li><a><b>HOME</b></a></li>
                   <li><a href="pages/about.html" >ABOUT</a></li>
                   <li><a href="pages/portfolio.html" >PORTFOLIO</a></li>
                   <li><a href="pages/blog.html" >BLOG</a></li>
@@ -70,8 +72,7 @@
       </div>
 
       <!-- Flickity carousel -->
-      <!-- Autoplay isn't working yet -->
-      <div id="slider" class="main-carousel js-flickity" data-flickity-options='{  "autoPlay": 1500   }' style="padding-top: 2%">
+      <div id="slider" class="main-carousel js-flickity" data-flickity-options='{  "autoPlay": 2000   }' style="padding-top: 2%">
          <div class="carousel-cell gallery-cell carousel responsive" data-flickity-options='{ "cellAlign": "left", "contain": true }'>
             <img src="img/misc/francois.jpg"  />
          </div>
@@ -107,7 +108,7 @@
          <!-- Featured -->
          <div id="featuredblog">
             <b>
-               <h4 style="color:#A59A9D" align="center">FEATURED BLOG POSTS:</h4>
+               <h4 style="color:#A59A9D" align="center">FEATURED BLOG POSTS</h4>
             </b>
             <center>
 
@@ -127,16 +128,16 @@
 
             <div class="col-md-4">
                <div class="hovereffect">
-                  <a href="pages/blog/racheljosh.html">
+                  <a href="blog/racheljosh.html">
                   <center>
                      <img src="img/misc/racheljosh.jpg" class="responsive"  />
                   </center>
                   <div class="overlay">
                      <p>SEE MORE</p>
                   </div>
+                  </a>
                </div>
                <p>Rachel and Josh // August 2018<br>Maternity photoshoot at Berczy Park and Gooderham Building </p>
-               </a>
             </div>
 
             <div class="col-md-4">
@@ -164,8 +165,14 @@
       <!-- footer -->
       <div class="footer">
          <ul id="footerlist">
-         <p>Copyright 2020</p>
+         <li><p>Copyright 2020</p></li>
+
+         <div class="pull-right">
+            <li><a style="color:#A59A9D" href="https://www.instagram.com/merisaleephotography" class="fa fa-instagram" target="_blank"></a></li>
+            <li><a style="color:#A59A9D" href="mailto:leemerisa@gmail.com" class="fa fa-envelope-o"></a></li>
+         </div>
       </div>
+      
    </body>
 </html>
 
@@ -179,7 +186,8 @@
    console.log('loading flickity');
    var flkty = new Flickity( elem, {
    // options
-   cellAlign: 'left',
+   cellAlign: 'center',
+   autoPlay: true,
    contain: true
    });
    
