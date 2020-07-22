@@ -75,10 +75,6 @@ hr {
   font-size: 48px;  
   font-weight: bold;
   opacity: 1;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  -o-animation-delay: 1s;
-  -ms-animation-delay: 1s
 }
 
  h2 {
@@ -87,10 +83,6 @@ hr {
   font-size: 28px;  
   font-weight: bold;
   opacity: 1;
-  -webkit-animation-delay: 1.8s;
-  -moz-animation-delay: 1.8s;
-  -o-animation-delay: 1.8s;
-  -ms-animation-delay: 1.8s
 }
 
  h3 {
@@ -99,11 +91,8 @@ hr {
   font-size: 15px;  
   font-weight: bold;
   opacity: 1;
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  -o-animation-delay: 2s;
-  -ms-animation-delay: 2s
 }
+
 
 #downArrow{
     position:absolute;
