@@ -121,7 +121,7 @@ html, body { height:100%; padding:0; margin:0; }
 
 
 .jumbotron {
-  background:url(../img/sherylmatt/IMG_4854.jpg)no-repeat center center fixed; 
+  background:url(../img/misc/backgroundsherylmatt.jpg)no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -158,13 +158,13 @@ html, body { height:100%; padding:0; margin:0; }
 }
 
 .responsive {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   padding: .5%
 }
 
 #blog .responsive {
-  max-width: 80%;
+  max-width: 800px;
   height: auto;
   padding-left: 7%;
   padding-right: 7%;
@@ -285,7 +285,7 @@ div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
 }
 
 img {
-  padding-top: 4%;
+  padding-top: 1%;
 }
 
 
@@ -372,4 +372,79 @@ img {
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
+}
+
+
+/*Filter Portfolio pics*/
+.filterDiv {
+ 
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  color:#A59A9D;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+/* MASONRY */
+
+/* Step 1: start with resetting some defaults */
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+}
+
+
+/* Step 2: center things inside the grid and clear some space around it by setting a device based max-width and margin*/
+
+.grid {
+  text-align: center;
+  max-width: 165vw;
+  margin: 2.5vw auto;
+}
+
+
+/* Step 3: how big should the gap be between grid items? remember that the total gap between two items would be double what you set here since both would have that amount set as their individual padding. Also add box-sizing:border-box to make sure the padding doesn't affect the total widh of the item */
+
+.grid-item {
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+
+/* Step 4: Add media queries (subjective) to make the whole grid resposive. */
+
+@media (min-width: 500px) {
+  .grid-item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid-item {
+    width: 33.333%;
+  }
 }
