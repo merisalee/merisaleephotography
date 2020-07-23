@@ -47,15 +47,7 @@ hr {
     cursor:context-menu;
     margin:0 auto;  
     z-index:1;
-    color:#c1c1c1;
-}
-
-.os-animation{
-  opacity: 0;
-}
-
-.os-animation.animated{
-    opacity: 1;
+    color:#c1c1c1 !important
 }
 
 .jumbotron a:hover {
@@ -80,18 +72,22 @@ hr {
 
  h2 {
   text-align:left;
-  color: #fff;
   font-size: 28px;  
   font-weight: bold;
   opacity: 1;
+  color: #A59A9D !important
 }
 
  h3 {
   text-align:left;
-  color: #fff;
   font-size: 15px;  
   font-weight: bold;
   opacity: 1;
+  color: #A59A9D !important
+}
+
+h4 {
+  color:#A59A9D !important
 }
 
 
@@ -107,8 +103,6 @@ hr {
 }
 
 html, body { height:100%; padding:0; margin:0; }
-
-
 
 .jumbotron {
   background:url(../img/misc/sherylmatt3.jpg)no-repeat center center fixed;
@@ -185,10 +179,15 @@ html, body { height:100%; padding:0; margin:0; }
   color:#282D2A;
 }
 
-a:hover {
+p a {
+  color:#A59A9D;
+  text-decoration: underline;
+}
+
+p a:hover, a:active {
   color: black;
-  font-size: 1.3emx;
-  font-weight: bold;
+  text-shadow: 0 0 0.6px black;
+  text-decoration: underline !important
 }
 
 
@@ -399,16 +398,11 @@ img {
 
 /* MASONRY */
 
-/* Step 1: start with resetting some defaults */
-
 * {
   margin: 0 auto;
   padding: 0;
   max-width: 100%;
 }
-
-
-/* Step 2: center things inside the grid and clear some space around it by setting a device based max-width and margin*/
 
 .grid {
   text-align: center;
@@ -417,15 +411,10 @@ img {
 }
 
 
-/* Step 3: how big should the gap be between grid items? remember that the total gap between two items would be double what you set here since both would have that amount set as their individual padding. Also add box-sizing:border-box to make sure the padding doesn't affect the total widh of the item */
-
 .grid-item {
   padding: 5px;
   box-sizing: border-box;
 }
-
-
-/* Step 4: Add media queries (subjective) to make the whole grid resposive. */
 
 @media (min-width: 500px) {
   .grid-item {
