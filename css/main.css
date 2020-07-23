@@ -38,6 +38,7 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 2px;
+    color: #A59A9D;
 } 
 
 #welcome{
@@ -182,12 +183,27 @@ html, body { height:100%; padding:0; margin:0; }
 p a {
   color:#A59A9D;
   text-decoration: underline;
+  -webkit-text-decoration-color: #a1bed6; /* Safari */ 
+  text-decoration-color: #a1bed6;
 }
 
 p a:hover, a:active {
   color: black;
-  text-shadow: 0 0 0.6px black;
+  text-shadow: 0 0 0.3px black;
+  text-decoration-color: #a1bed6;
+  -webkit-text-decoration-color: #a1bed6; /* Safari */
   text-decoration: underline !important
+}
+
+#footerlist a {
+  color:#A59A9D;
+  text-decoration: none;
+}
+
+#footerlist a:hover, a:active {
+  color: black;
+  text-shadow: 0 0 0.6px black;
+  text-decoration: none !important
 }
 
 
@@ -259,7 +275,7 @@ list-style-type: disc;
 
 li {
   color:#A59A9D;
-  text-align: left;
+  text-align: left !important
 }
 
 #footerlist li {
