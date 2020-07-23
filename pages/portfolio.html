@@ -50,6 +50,9 @@
          </div>
       </div>
 
+      <!-- Preloader -->
+      <div class="loader"></div>
+
       <!-- Header page -->
    </head>
    <body data-spy="scroll" data-target="#navbar">
@@ -302,6 +305,13 @@
 
 <!-- bootstrap -->
 <script src="../js/bootstrap.min.js"></script>
+
+<!-- preloader js -->
+<script type="text/javascript">
+   $(window).load(function() {
+   $(".loader").fadeOut("slow");
+   })
+</script>
 
 <script type="text/javascript">
       filterSelection("all")
