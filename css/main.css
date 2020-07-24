@@ -101,7 +101,7 @@ h2 {
   font-size: 28px;
   font-weight: bold;
   opacity: 1;
-  color: #a59a9d !important;
+  color: #87787c !important;
 }
 
 h3 {
@@ -109,11 +109,11 @@ h3 {
   font-size: 15px;
   font-weight: bold;
   opacity: 1;
-  color: #a59a9d !important;
+  color: #87787c !important;
 }
 
 h4 {
-  color: #a59a9d !important;
+  color: #87787c !important;
 }
 
 #downArrow {
@@ -135,7 +135,7 @@ body {
 }
 
 .jumbotron {
-  background: url(../img/misc/sherylmatt3.jpg) no-repeat center center fixed;
+  background: url(../img/misc/homepage.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -232,17 +232,18 @@ body {
 .about h3 {
   font-size: 2rem;
   font-weight: bold;
-  color: #282d2a;
+  color: #87787c;
 }
 
 .about h4 {
-  color: #282d2a;
+  color: #87787c;
   font-weight: bold;
 }
 
 .about li {
   color: #87787c;
 }
+
 
 p a {
   color: #87787c;
@@ -350,6 +351,7 @@ dir {
 li {
   color: #a59a9d;
   text-align: left !important;
+  margin-left: 10px;
 }
 
 #footerlist li {
@@ -529,5 +531,20 @@ img {
 @media (min-width: 1000px) {
   .grid-item {
     width: 33.33%;
+  }
+}
+.grid-item-blog {
+  padding: 5px;
+  box-sizing: border-box;
+}
+@media (min-width: 500px) {
+  .grid-item-blog {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid-item-blog {
+    width: 50%%;
   }
 }
