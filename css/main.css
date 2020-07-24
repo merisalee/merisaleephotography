@@ -1,5 +1,6 @@
 * {
   font-family: "Century Gothic", sans-serif;
+  letter-spacing: 0.5px;
 }
 
 body {
@@ -41,6 +42,7 @@ hr {
 }
 
 #myBtnContainer {
+  margin-top: 5%;
   text-align: center;
 }
 
@@ -54,13 +56,19 @@ hr {
 }
 
 #welcome {
-  position: relative;
-  top: 20%;
-  padding-left: 5%;
-  cursor: context-menu;
   margin: 0 auto;
   z-index: 1;
-  color: #c1c1c1 !important;
+  text-align: center;
+  color: #666666;
+}
+
+#my_title {
+  text-align: center;
+  color: #666666 !important;
+}
+
+#location {
+  color: #666666 !important;
 }
 
 .jumbotron a:hover {
@@ -121,7 +129,7 @@ body {
 }
 
 .jumbotron {
-  background: url(../img/misc/sherylmatt3.jpg) no-repeat center center fixed;
+  background: url(../img/sherylmatt/sheryl27.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -134,6 +142,8 @@ body {
 }
 
 .jumbotron2 {
+  background-size: cover;
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.4);
   background: url(../img/misc/photography.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -146,15 +156,40 @@ body {
 }
 
 .jumbotron3 {
+  background-size: cover;
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.4);
   background: url(../img/misc/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 350px;
+  display: table;
   filter: alpha(opacity=50);
   text-align: center;
-  width: auto;
+  width: 100%;
+}
+
+.jumbotron3 h2 {
+  text-align: center;
+  color: #f3f1f2 !important;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.jumbotron3 a {
+  color: #c3bbbd;
+  text-decoration: none;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.jumbotron3 a:hover {
+  color: #cce6ff;
 }
 
 .responsive {
@@ -181,21 +216,32 @@ body {
 .about {
   background-color: rgba (255, 0, 0, 0.4);
   text-align: left;
+  color: #87787c;
+  margin-top: 5%;
 }
 
 .about p {
-  font-size: 1.4em;
-  color: #a59a9d;
+  font-size: 1.5rem;
+  color: #87787c;
 }
 
 .about h3 {
-  font-size: 1.6em;
+  font-size: 2rem;
   font-weight: bold;
   color: #282d2a;
 }
 
+.about h4 {
+  color: #282d2a;
+  font-weight: bold;
+}
+
+.about li {
+  color: #87787c;
+}
+
 p a {
-  color: #a59a9d;
+  color: #87787c;
   text-decoration: underline;
   -webkit-text-decoration-color: #a1bed6; /* Safari */
   text-decoration-color: #a1bed6;
@@ -211,7 +257,7 @@ a:active {
 }
 
 #footerlist a {
-  color: #a59a9d;
+  color: #292425;
   text-decoration: none;
 }
 
@@ -259,8 +305,8 @@ a:active {
 }
 
 .footer {
-  background-color: #f8f8f8;
-  color: #fff;
+  background-color: #fff;
+  color: #999999;
   padding-top: 1%;
   padding-bottom: 0.5%;
   position: relative;
@@ -412,9 +458,22 @@ img {
   border: none;
   outline: none;
   padding: 12px 16px;
-  color: #a59a9d;
-  background-color: #f1f1f1;
+  color: #938589;
+  background-color: #d9d9d9;
   cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.btn:focus {
+  color: #fff !important;
+}
+
+.active:hover {
+  color: #fff !important;
 }
 
 /* Add a light grey background on mouse-over */
