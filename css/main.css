@@ -62,6 +62,7 @@ hr {
   color: #666666;
   top: 20%;
   position: relative;
+  margin-left: 10vw;
 }
 
 #my_title {
@@ -69,12 +70,14 @@ hr {
   color: #666666 !important;
   top: 20%;
   position: relative;
+  margin-left: 10vw;
 }
 
 #location {
   color: #666666 !important;
   top: 20%;
   position: relative;
+  margin-left: 10vw;
 }
 
 .jumbotron a:hover {
@@ -134,16 +137,19 @@ body {
   margin: 0;
 }
 
-.jumbotron {
-  background: url(../img/misc/homepage.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 650px;
-  height:100%;
-  width:100%;
+
+.parallax-window {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 400px;
+    background: transparent;
+    height: 650px;
+    height:100%;
+    width:100%;
 }
+
 
 .jumbotron2 {
   background-size: cover;
@@ -182,7 +188,7 @@ body {
 }
 
 .jumbotron3 a {
-  color: #c3bbbd;
+  color: #fff;
   text-decoration: none;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -193,6 +199,21 @@ body {
 }
 
 .jumbotron3 a:hover {
+  color: #cce6ff;
+}
+
+.parallax-window3 a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.parallax-window3 a:hover {
   color: #cce6ff;
 }
 

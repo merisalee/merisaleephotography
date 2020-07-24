@@ -47,6 +47,7 @@ p {
 
 .gallery-cell {
   width: 66%;
+  margin-top: 3vw;
 }
 
 .gallery-cell img {
