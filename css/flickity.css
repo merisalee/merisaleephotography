@@ -23,7 +23,7 @@ header h1 {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 2em;
   margin-top: 0;
-  color: #6699FF;
+  color: #6699ff;
 }
 
 header p {
@@ -31,13 +31,13 @@ header p {
   font-weight: bold;
   font-size: 1.25em;
   margin-top: 0;
-  color: #6699FF;
+  color: #6699ff;
 }
 
 p {
   margin: auto;
   padding: 20px;
-  color: #A59A9D;
+  color: #a59a9d;
   font-size: 1em;
 }
 
@@ -66,31 +66,31 @@ footer {
 
 /*--------Media Queries--------*/
 
-@media (min-width: 769px ) {
+@media (min-width: 769px) {
   header {
     margin-bottom: 10px;
   }
-  
+
   header h1 {
     display: inline-block;
     font-size: 1.25em;
     padding-right: 10px;
-    color: #6699FF;
+    color: #6699ff;
     margin-top: 0;
   }
-  
+
   header p {
     display: inline-block;
-    font-size: .5em;
+    font-size: 0.5em;
     margin-left: 10px;
-    color: #6699FF;
+    color: #6699ff;
     margin-top: 0;
   }
-  
+
   .content {
     width: 100%;
   }
-  
+
   footer {
     clear: both;
   }
@@ -101,7 +101,7 @@ footer {
     text-align: left;
     margin-bottom: 10px;
   }
-  
+
   header h1 {
     display: block;
     margin-top: 0;
@@ -109,33 +109,33 @@ footer {
     padding: 20px;
     font-size: 2em;
   }
-  
+
   p {
     padding-left: 10px;
     padding-top: 5px;
     font-size: 1em;
   }
-  
+
   .gallery {
     margin: auto;
   }
-  
+
   footer {
     clear: both;
   }
-  
 }
 
 /*! Flickity v1.1.1
 https://flickity.metafizzy.co
 ---------------------------------------------- */
 
-
 .flickity-enabled {
   position: relative;
 }
 
-.flickity-enabled:focus { outline: none; }
+.flickity-enabled:focus {
+  outline: none;
+}
 
 .flickity-viewport {
   overflow: hidden;
@@ -153,11 +153,11 @@ https://flickity.metafizzy.co
 
 .flickity-enabled.is-draggable {
   -webkit-tap-highlight-color: transparent;
-          tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .flickity-enabled.is-draggable .flickity-viewport {
@@ -185,15 +185,17 @@ https://flickity.metafizzy.co
   cursor: pointer;
   /* vertically center */
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-.flickity-prev-next-button:hover { background: white; }
+.flickity-prev-next-button:hover {
+  background: white;
+}
 
 .flickity-prev-next-button:focus {
   outline: none;
-  box-shadow: 0 0 0 5px #09F;
+  box-shadow: 0 0 0 5px #09f;
 }
 
 .flickity-prev-next-button:active {
@@ -201,8 +203,12 @@ https://flickity.metafizzy.co
   opacity: 0.6;
 }
 
-.flickity-prev-next-button.previous { left: 10px; }
-.flickity-prev-next-button.next { right: 10px; }
+.flickity-prev-next-button.previous {
+  left: 10px;
+}
+.flickity-prev-next-button.next {
+  right: 10px;
+}
 /* right to left */
 .flickity-rtl .flickity-prev-next-button.previous {
   left: auto;
@@ -240,17 +246,16 @@ https://flickity.metafizzy.co
 /* ---- page dots ---- */
 
 .flickity-page-dots {
-  position: absolute;
   width: 100%;
-  bottom: -25px;
-  padding: 0;
-  margin: 0;
+  padding: 2rem 0;
   list-style: none;
   text-align: center;
   line-height: 1;
 }
 
-.flickity-rtl .flickity-page-dots { direction: rtl; }
+.flickity-rtl .flickity-page-dots {
+  direction: rtl;
+}
 
 .flickity-page-dots .dot {
   display: inline-block;

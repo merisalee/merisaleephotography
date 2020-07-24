@@ -72,7 +72,7 @@
       </div>
 
       <!-- Flickity carousel -->
-      <div id="slider" class="main-carousel js-flickity" data-flickity-options='{  "autoPlay": 2000; "imagesLoaded": true   }' style="padding-top: 2%; max-height: 1200px">
+      <div id="slider" class="main-carousel js-flickity" data-flickity-options='{  "autoPlay": 2000; "imagesLoaded": true   }'>
          <div class="carousel-cell gallery-cell carousel responsive" data-flickity-options='{ "cellAlign": "left", "contain": true }'>
             <img src="img/misc/bettymaanoj.jpg"  />
          </div>
@@ -93,8 +93,6 @@
             <img class="carousel-cell" src="img/misc/grayson.jpg" />
          </div> -->
       </div>
-      <br></br>
-      <br></br>
 
 
       <div class="jumbotron2">
@@ -111,19 +109,14 @@
             <b>
                <h4 style="color:#A59A9D" align="center">FEATURED BLOG POSTS</h4>
             </b>
-            <center>
 
             <div class="col-md-4">
                <a href="pages/blog/sherylmatt.html">
                <div class="hovereffect">
-                  
-                  <center>
-                     <img src="img/misc/featured1.jpg" class="responsive"/>
-                  </center>
+                  <img src="img/misc/featured1.jpg" class="responsive"/>
                   <div class="overlay">
                      <p>SEE MORE</p>
                   </div>
-                  
                </div>
                </a>
                <p>Sheryl and Matt | June 2020<br>Intimate Wedding at Sheryl's parents' home and Victoria Park</p>
@@ -132,10 +125,7 @@
             <div class="col-md-4">
                <a href="pages/blog/racheljosh.html">
                <div class="hovereffect">
-                  
-                  <center>
                      <img src="img/misc/featured4.jpg" class="responsive"  />
-                  </center>
                   <div class="overlay">
                      <p>SEE MORE</p>
                   </div>
@@ -148,10 +138,7 @@
             <div class="col-md-4">
                <a href="pages/blog/bettymaanoj.html">
                <div class="hovereffect">
-                  
-                  <center>
-                     <img src="img/misc/featured2.jpg" class="responsive"  style="opacity: 1"/>
-                  </center>
+                  <img src="img/misc/featured2.jpg" class="responsive"  style="opacity: 1"/>
                   <div class="overlay">
                      <p>SEE MORE</p>
                   </div>
@@ -163,7 +150,9 @@
          </div>
       </div>
 
-      <center><p><a style="color:#A59A9D" href="pages/blog.html">More blog posts</a></p></center><br>
+      <p><
+         a style="color:#A59A9D" href="pages/blog.html">More blog posts</a>
+      </p>
 
 
       <div class="jumbotron3">
@@ -193,11 +182,13 @@
    var elem = document.querySelector('.main-carousel');
    console.log('loading flickity');
    var flkty = new Flickity( elem, {
-   // options
-   cellAlign: 'center',
-   imagesLoaded: true,
-   autoPlay: true,
-   contain: true
+      // options
+      cellAlign: 'center',
+      imagesLoaded: true,
+      autoPlay: true,
+      contain: true,
+      wrapAround: true,
+      pauseAutoPlayOnHover: false,
    });
    
 

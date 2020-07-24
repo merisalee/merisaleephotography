@@ -40,6 +40,19 @@ hr {
   color: #a59a9d;
 }
 
+#myBtnContainer {
+  text-align: center;
+}
+
+#mnsry_container {
+  text-align: center;
+}
+
+.container {
+  display: block;
+  margin: auto;
+}
+
 #welcome {
   position: relative;
   top: 20%;
@@ -391,6 +404,7 @@ img {
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;
+  position: relative;
 }
 
 /* Style the buttons */
@@ -423,7 +437,6 @@ img {
 }
 
 .grid {
-  text-align: center;
   max-width: 165vw;
   margin: 2.5vw auto;
 }
@@ -441,6 +454,6 @@ img {
 
 @media (min-width: 1000px) {
   .grid-item {
-    width: 33.333%;
+    width: 33.33%;
   }
 }
