@@ -58,17 +58,23 @@ hr {
 #welcome {
   margin: 0 auto;
   z-index: 1;
-  text-align: center;
+  text-align: left;
   color: #666666;
+  top: 20%;
+  position: relative;
 }
 
 #my_title {
-  text-align: center;
+  text-align: left;
   color: #666666 !important;
+  top: 20%;
+  position: relative;
 }
 
 #location {
   color: #666666 !important;
+  top: 20%;
+  position: relative;
 }
 
 .jumbotron a:hover {
@@ -243,6 +249,11 @@ p a {
   text-decoration: underline;
   -webkit-text-decoration-color: #a1bed6; /* Safari */
   text-decoration-color: #a1bed6;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 p a:hover,
@@ -264,6 +275,10 @@ a:active {
   color: black;
   text-shadow: 0 0 0.6px black;
   text-decoration: none !important;
+}
+
+#centered {
+  text-align: center;
 }
 
 .col-md-3 h3 {
@@ -496,6 +511,8 @@ img {
 .grid {
   max-width: 165vw;
   margin: 2.5vw auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .grid-item {
