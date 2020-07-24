@@ -112,8 +112,6 @@ html, body { height:100%; padding:0; margin:0; }
   -o-background-size: cover;
   background-size: cover;
   height: 650px;
-  filter:alpha(opacity=90)
-  text-align:center;
   height:100%;
   width:100%;
 }
