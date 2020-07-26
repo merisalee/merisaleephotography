@@ -200,6 +200,7 @@ body {
   color: #cce6ff;
 }
 
+
 .parallax-window3 a {
   color: #fff;
   text-decoration: none;
@@ -258,9 +259,26 @@ body {
   font-weight: bold;
 }
 
-.about li {
-  color: #87787c;
+
+.link a {
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: #938589;
+  background-color: #d9d9d9;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  border-radius: 4px;
 }
+
+.link a:hover {
+  color: #636466;
+}
+
 
 
 p a {
@@ -369,7 +387,6 @@ dir {
 li {
   color: #a59a9d;
   text-align: left !important;
-  margin-left: 10px;
 }
 
 #footerlist li {
