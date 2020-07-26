@@ -251,7 +251,6 @@ body {
 .about h3 {
   font-size: 2rem;
   font-weight: bold;
-  color: #87787c;
 }
 
 .about h4 {
@@ -385,7 +384,7 @@ dir {
 }
 
 li {
-  color: #a59a9d;
+  color: #87787c;
   text-align: left !important;
 }
 
