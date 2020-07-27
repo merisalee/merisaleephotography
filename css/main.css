@@ -34,6 +34,18 @@ body {
   background: #fff;
 }
 
+
+#boxtext {
+  width: 24em;
+  position: fixed;
+  top: 30%;
+  left: 20%;
+}
+#boxtext p {
+  margin: 10px 0;
+  text-align: left;
+}
+
 hr {
   display: block;
   margin-top: 0.7em;
@@ -101,6 +113,7 @@ h1 {
   font-size: 48px;
   font-weight: bold;
   opacity: 1;
+  text-shadow: 1px 1px #87787c;
 }
 
 h2 {
@@ -120,7 +133,7 @@ h3 {
 }
 
 h4 {
-  color: #87787c !important;
+  color: #87787c;
 }
 
 #downArrow {
@@ -223,21 +236,6 @@ body {
 
 .instagramPreview p {
   text-align: center;
-}
-
-.parallax-window3 a {
-  color: #fff;
-  text-decoration: none;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  -ms-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-  cursor: pointer;
-}
-
-.parallax-window3 a:hover {
-  color: #cce6ff;
 }
 
 .responsive {
