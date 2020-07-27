@@ -230,7 +230,7 @@ body {
 }
 
 .instagramPreview {
-  padding: 2% 25%;
+  padding: 2% 7%;
   background-color: #fff;
 }
 
@@ -379,6 +379,7 @@ a:active {
   display: inline-block;
   list-style-type: none;
   padding-right: 20px;
+  padding-top: 10px;
 }
 
 .footer p {
@@ -406,6 +407,7 @@ li {
   display: inline-block;
   list-style-type: none;
   padding-right: 20px;
+  padding-top: 10px;
 }
 
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css");
