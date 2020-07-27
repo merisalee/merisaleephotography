@@ -132,8 +132,12 @@ h3 {
   color: #87787c !important;
 }
 
-h4 {
-  color: #87787c;
+.container h4 {
+  color: #87787c !important
+}
+
+.parallax-window h4 {
+  color: #fff;
 }
 
 #downArrow {
@@ -286,7 +290,7 @@ body {
 }
 
 .about h4 {
-  color: #87787c;
+  color: #87787c !important
   font-weight: bold;
 }
 
@@ -416,6 +420,7 @@ dir {
 li {
   color: #87787c;
   text-align: left !important;
+  font-size: 15px;
 }
 
 #footerlist li {
