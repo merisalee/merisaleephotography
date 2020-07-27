@@ -1,10 +1,14 @@
 * {
-  font-family: "Century Gothic", sans-serif;
-  letter-spacing: 0.5px;
+  font-family: "Open Sans", sans-serif, "google";
+  word-spacing: 0.1em;
 }
 
 body {
   position: relative;
+}
+
+.navbar-default {
+  letter-spacing: 0.06em;
 }
 
 .active {
@@ -42,7 +46,7 @@ hr {
 }
 
 #myBtnContainer {
-  margin-top: 5%;
+  margin-top: 2.5%;
   text-align: center;
 }
 
@@ -137,37 +141,45 @@ body {
   margin: 0;
 }
 
-
 .parallax-window {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 400px;
-    background: transparent;
-    height: 650px;
-    height:100%;
-    width:100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 400px;
+  background: transparent;
+  height: 650px;
+  height: 100%;
+  width: 100%;
 }
-
 
 .jumbotron2 {
   background-size: cover;
-  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.1);
-  background: url(../img/misc/photography.jpg) no-repeat center center fixed;
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.15);
+  background: url(../img/misc/photography.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 350px;
   text-align: center;
-  width: auto;
+  width: 100%;
+  display: table;
+}
+
+.jumbotron2 h3 {
+  font-family: "Lobster Two", Helvetica, sans-serif;
+  text-align: center;
+  color: #f3f1f2 !important;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 .jumbotron3 {
   background-size: cover;
   box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.2);
-  background: url(../img/misc/background.jpg) no-repeat center center fixed;
+  background: url(../img/misc/background.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -178,7 +190,7 @@ body {
   width: 100%;
 }
 
-.jumbotron3 h2 {
+.jumbotron3 h3 {
   text-align: center;
   color: #f3f1f2 !important;
   display: table-cell;
@@ -200,6 +212,18 @@ body {
   color: #cce6ff;
 }
 
+.navbar-brand {
+  font-weight: bold;
+}
+
+.instagramPreview {
+  padding: 2% 25%;
+  background-color: #fff;
+}
+
+.instagramPreview p {
+  text-align: center;
+}
 
 .parallax-window3 a {
   color: #fff;
@@ -240,7 +264,7 @@ body {
   background-color: rgba (255, 0, 0, 0.4);
   text-align: left;
   color: #87787c;
-  margin-top: 5%;
+  margin-top: 2.5%;
 }
 
 .about p {
@@ -257,7 +281,6 @@ body {
   color: #87787c;
   font-weight: bold;
 }
-
 
 .link a {
   border: none;
@@ -277,8 +300,6 @@ body {
 .link a:hover {
   color: #636466;
 }
-
-
 
 p a {
   color: #87787c;
