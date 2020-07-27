@@ -581,11 +581,18 @@ img {
   .grid-item {
     width: 50%;
   }
+  .main-carousel {
+    margin: 0 10%;
+  }
 }
 
 @media (min-width: 1000px) {
   .grid-item {
     width: 33.33%;
+  }
+
+  .main-carousel {
+    margin: 0 15%;
   }
 }
 .grid-item-blog {
