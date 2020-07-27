@@ -30,6 +30,8 @@
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <!-- Font Awesome -->
       <script src="https://use.fontawesome.com/3b4f1cf3d3.js"></script>
+      <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>	
+      <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>
@@ -39,6 +41,7 @@
       <div class="navbar navbar-default navbar-static-top" id="navbar" role="navigation">
          <div class="container">
             <div class="navbar-header">
+               <div class="navbar-brand" href="#" style="font-family: 'Lobster Two', Helvetica, sans-serif;">Merisa Lee</div>
                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                <span class="sr-only">Toggle navigation</span>
                <span class="icon-bar"></span>
@@ -64,19 +67,12 @@
       <div class="loader"></div>
       
    </head>
+
+
    <!-- Header -->
    <body data-spy="scroll" data-target="#navbar">
-      <div class="parallax-window" data-parallax="scroll" data-image-src="img/misc/homepage.jpg">
-      
-         <h1 id="welcome">
-            Merisa Lee
-         </h1>
-         <h3 id="my_title">
-            Lifestyle photographer
-         </h3>
-         <h4 id="location">
-            Based in Toronto
-         </h4>
+      <div class="parallax-window" data-parallax="scroll" data-image-src="img/misc/sherMatt.jpg">
+
          <a href="#slider" id="downArrow">
          <img src="img/downArrow.png">
          </a>  
@@ -84,41 +80,38 @@
    </div>
 
       <!-- Flickity carousel -->
-      <div id="slider" class="main-carousel js-flickity" data-flickity-options='{  "autoPlay": 2000; "imagesLoaded": true   }'>
-         <div class="carousel-cell gallery-cell carousel responsive" data-flickity-options='{ "cellAlign": "left", "contain": true }'>
+      <div id="slider" class="main-carousel js-flickity">
+         <div class="carousel-cell gallery-cell carousel responsive">
             <img src="img/misc/bettymaanoj.jpg"  />
          </div>
-         <div class="carousel-cell gallery-cell responsive" data-flickity-options='{ "cellAlign": "left", "contain": true  }'>
+         <div class="carousel-cell gallery-cell responsive">
             <img src="img/misc/wendysheldon2.jpg"  />
          </div>
-         <div class="carousel-cell gallery-cell responsive" data-flickity-options='{ "cellAlign": "left", "contain": true  }'>
+         <div class="carousel-cell gallery-cell responsive">
             <img class="carousel-cell" src="img/misc/racheljosh.jpg" />
          </div>
-         <div class="carousel-cell gallery-cell responsive" data-flickity-options='{ "cellAlign": "left", "contain": true  }'>
+         <div class="carousel-cell gallery-cell responsive">
             <img class="carousel-cell" src="img/misc/joe.jpg" />
          </div>
-         <div class="carousel-cell gallery-cell responsive" data-flickity-options='{ "cellAlign": "left", "contain": true  }'>
+         <div class="carousel-cell gallery-cell responsive">
             <img class="carousel-cell" src="img/misc/sherylmatt5.jpg" />
          </div>
          <!-- Portrait images don't work yet -->
-         <!-- <div class="carousel-cell gallery-cell img-responsive" data-flickity-options='{ "cellAlign": "left", "contain": true }'>
+         <!-- <div class="carousel-cell gallery-cell img-responsive">
             <img class="carousel-cell" src="img/misc/grayson.jpg" />
          </div> -->
       </div>
 
-
       <div class="jumbotron2">
+         <h3>Photography is the beauty of life captured.</h3>
       </div>
 
       <div class="container">
-         <br><br>
-         <hr>
-         <br>
 
          <!-- Featured -->
          <div id="featuredblog">
             <b>
-               <h4 align="center">FEATURED BLOG POSTS</h4>
+               <h4 style="text-align:center">FEATURED BLOG POSTS</h4>
             </b>
 
             <div class="col-md-4">
@@ -174,12 +167,16 @@
 
          <br>
       </div>
-
       
-
-     
-
       <div class="jumbotron3">
+         <h3>
+            <a href="pages/about.html">Learn more about me!</a>
+         </h3>
+      </div>
+
+      <div class="instagramPreview">
+         <p>Follow <a href="https://instagram.com/merisaleephotography" target="_blank">@merisaleephotography</a></p>
+         <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="http://lightwidget.com/widgets/76a7167102cf579ea84f57216b9e2359.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
       </div>
 
       <!-- footer -->
@@ -189,7 +186,7 @@
          <li><p>Copyright 2020</p></li>
 
          <div class="pull-right">
-            <li><p><a style="color:#A59A9D; font-size:20px" href="https://www.instagram.com/merisaleephotography" class="fa fa-instagram" target="_blank"></a></p></li>
+            <li><a style="color:#A59A9D; font-size:20px" href="https://www.instagram.com/merisaleephotography" class="fa fa-instagram" target="_blank"></a></li>
             <li><a style="color:#A59A9D; font-size:20px" href="mailto:leemerisa@gmail.com" class="fa fa-envelope-o"></a></li>
          </div>
       </div>
@@ -204,7 +201,6 @@
    })
    
    var elem = document.querySelector('.main-carousel');
-   console.log('loading flickity');
    var flkty = new Flickity( elem, {
       // options
       cellAlign: 'center',
@@ -213,12 +209,6 @@
       contain: true,
       wrapAround: true,
       pauseAutoPlayOnHover: false,
-   });
-   
-
-   // element argument can be a selector string
-   //   for an individual element
-   var flkty = new Flickity( '.main-carousel', {
    });
 </script>
 <!-- Bootstrap -->
