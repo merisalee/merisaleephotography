@@ -229,13 +229,28 @@ body {
   font-weight: bold;
 }
 
-.instagramPreview {
+/*.instagramPreview {
   padding: 2% 7%;
   background-color: #fff;
 }
 
 .instagramPreview p {
   text-align: center;
+}*/
+
+@media (min-width: 500px) {
+  .instagramPreview {
+    padding: 2% 2%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .instagramPreview {
+    padding: 2% 20%;
+    text-align: center;
+  }
+
 }
 
 .responsive {
@@ -587,7 +602,7 @@ img {
   }
 
   .main-carousel {
-    margin: 0 15%;
+    margin: 0 10%;
   }
 }
 .grid-item-blog {
