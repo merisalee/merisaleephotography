@@ -140,6 +140,13 @@ h3 {
   color: #fff;
 }
 
+@media only screen and (max-width:749px) {
+  .parallax-window {
+    background-attachment: scroll !important;
+    background-position: center center !important;
+  }
+}
+
 #downArrow {
   position: absolute;
   top: 80%;
@@ -242,16 +249,7 @@ body {
   text-align: center;
 }
 
-/*.instagramPreview {
-  padding: 2% 7%;
-  background-color: #fff;
-}
-
-.instagramPreview p {
-  text-align: center;
-}*/
-
-@media (min-width: 500px) {
+@media (min-width: 749px) {
   .instagramPreview {
     padding: 2% 2%;
     text-align: center;
