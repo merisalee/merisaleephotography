@@ -1,7 +1,8 @@
-* {
+*:not(.navbar-brand) {
   font-family: "Century Gothic", sans-serif, "google";
   word-spacing: 0.05em;
 }
+
 
 body {
   position: relative;
