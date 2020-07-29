@@ -249,7 +249,7 @@ body {
   text-align: center;
 }
 
-@media (min-width: 749px) {
+@media (min-width: 500px) {
   .instagramPreview {
     padding: 2% 2%;
     text-align: center;
