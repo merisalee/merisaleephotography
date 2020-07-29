@@ -1,11 +1,6 @@
 * {
-<<<<<<< HEAD
   font-family: "Century Gothic", sans-serif, "google";
   word-spacing: 0.05em;
-=======
-  font-family: "Open Sans", sans-serif, "google";
-  word-spacing: 0.1em;
->>>>>>> 64fb9ed... - Fix footer inconsistency
 }
 
 body {
@@ -38,7 +33,6 @@ body {
   left: -5px;
   background: #fff;
 }
-
 
 #boxtext {
   width: 24em;
@@ -138,7 +132,7 @@ h3 {
 }
 
 .container h4 {
-  color: #87787c !important
+  color: #87787c !important;
 }
 
 .parallax-window h4 {
@@ -268,7 +262,6 @@ body {
     padding: 2% 20%;
     text-align: center;
   }
-
 }
 
 .responsive {
