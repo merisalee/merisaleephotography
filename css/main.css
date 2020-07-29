@@ -34,7 +34,6 @@ body {
   background: #fff;
 }
 
-
 #boxtext {
   width: 24em;
   position: fixed;
@@ -233,6 +232,15 @@ body {
   font-weight: bold;
 }
 
+.instagramPreview {
+  padding: 2% 25%;
+  background-color: #fff;
+}
+
+.instagramPreview p {
+  text-align: center;
+}
+
 /*.instagramPreview {
   padding: 2% 7%;
   background-color: #fff;
@@ -254,7 +262,6 @@ body {
     padding: 2% 20%;
     text-align: center;
   }
-
 }
 
 .responsive {
@@ -290,7 +297,7 @@ body {
 }
 
 .about h4 {
-  color: #87787c !important
+  color: #87787c !important;
   font-weight: bold;
 }
 
