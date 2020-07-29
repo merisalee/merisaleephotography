@@ -1,6 +1,11 @@
 * {
+<<<<<<< HEAD
   font-family: "Century Gothic", sans-serif, "google";
   word-spacing: 0.05em;
+=======
+  font-family: "Open Sans", sans-serif, "google";
+  word-spacing: 0.1em;
+>>>>>>> 64fb9ed... - Fix footer inconsistency
 }
 
 body {
@@ -233,6 +238,15 @@ body {
   font-weight: bold;
 }
 
+.instagramPreview {
+  padding: 2% 25%;
+  background-color: #fff;
+}
+
+.instagramPreview p {
+  text-align: center;
+}
+
 /*.instagramPreview {
   padding: 2% 7%;
   background-color: #fff;
@@ -290,7 +304,7 @@ body {
 }
 
 .about h4 {
-  color: #87787c !important
+  color: #87787c !important;
   font-weight: bold;
 }
 
@@ -618,6 +632,6 @@ div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 {
 
 @media (min-width: 1000px) {
   .grid-item-blog {
-    width: 50%%;
+    width: 50%;
   }
 }
