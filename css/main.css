@@ -618,6 +618,6 @@ div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 {
 
 @media (min-width: 1000px) {
   .grid-item-blog {
-    width: 50%%;
+    width: 50%;
   }
 }
