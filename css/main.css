@@ -242,7 +242,6 @@ body {
 }
 
 .instagramPreview {
-  padding: 2% 25%;
   background-color: #fff;
 }
 
@@ -251,7 +250,7 @@ body {
   font-size: 15px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 400px) {
   .instagramPreview {
     padding: 2% 2%;
     text-align: center;
@@ -598,12 +597,12 @@ div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 {
   box-sizing: border-box;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 400px) {
   .grid-item {
     width: 50%;
   }
   .main-carousel {
-    margin: 0 10%;
+    margin: 0 0%;
   }
 }
 
@@ -613,7 +612,7 @@ div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 {
   }
 
   .main-carousel {
-    margin: 0 10%;
+    margin: 0 8%;
   }
 }
 .grid-item-blog {
