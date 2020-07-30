@@ -69,6 +69,7 @@ hr {
 .container {
   display: block;
   margin: auto;
+  text-align: center;
 }
 
 #welcome {
@@ -247,6 +248,7 @@ body {
 
 .instagramPreview p {
   text-align: center;
+  font-size: 15px;
 }
 
 @media (min-width: 500px) {
@@ -293,11 +295,13 @@ body {
 .about p {
   font-size: 1.5rem;
   color: #87787c;
+  text-align: left;
 }
 
 .about h4 {
   color: #87787c !important;
   font-weight: bold;
+  text-align: left;
 }
 
 .link a {
