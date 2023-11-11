@@ -305,6 +305,9 @@ body {
 }
 
 .link a {
+  text-align: center;
+  margin: auto;
+  width: 100px;
   border: none;
   outline: none;
   padding: 10px;
