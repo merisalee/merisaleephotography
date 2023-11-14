@@ -43,7 +43,12 @@
           $('#header').load('/navbar.html');
           $('#footer').load('/footer.html');
         });
+
+        window.onload = function () {
+         document.getElementById("about").style.fontWeight = "bold";
+         };
       </script>
+
       
       <!-- Preloader -->
       <div class="loader"></div>
@@ -119,6 +124,7 @@
 
    </body>
 </html>
+
 <!-- preloader js -->
 <script type="text/javascript">
    $(window).load(function() {
